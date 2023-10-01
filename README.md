@@ -8,7 +8,7 @@ The specific link is https://github.com/coding-boot-camp/urban-octo-telegram and
 
 The listed contributors have GitHub account names Xandromus and Georgeyoo.
 
-Links to screenshots to deployed webpage: 
+Links to screenshots of deployed application on GitHub pages: 
 
 Top: https://github.com/wmason1997/WM-Horiseon-Marketing/assets/98278654/144597a7-bea4-446e-b04e-de3123775c1b
 

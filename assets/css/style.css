@@ -1,4 +1,5 @@
 /* Universal Selector */
+/* Employing the Box Model*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,22 +7,26 @@
 }
 
 /* Element selectors */
+/* body element selector */
 body {
     background-color: #d9dcd6;
 }
 
 /* Moved these a and p element selectors up next to the body element selector for organization*/
+/* anchor element selector */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* paragraph element selector */
 p {
     font-size: 16px;
 }
 
 
 /* Class selectors */
+/* header class selector */
 .header {
     /* padding: 30px; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,6 +37,7 @@ p {
 }
 
 /* The Horiseon label in the top left corner of the webpage. */
+/* h1 header class selector */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -42,11 +48,13 @@ p {
     padding-bottom: 20px;
 }
 
+/* h1 seo class selector*/
 .header h1 .seo {
     color: #d9dcd6;
     display: inline;
 }
 
+/* div tag class selector. div tag defines a division or section, used as a container for other elements */
 .header div {
     padding-top: 0px;  /*Trying changing this from 15px to 0px to bring up the header*/
     margin-right: 0px; /*edited to 0 because of sliver of gray left on top right corner*/
@@ -61,6 +69,7 @@ p {
     top: 0px; right: 0px; /*the discrepancies we were facing in the top header on different sized monitors */
 }
 
+/* unordered list element class selector */
 .header div ul {
     list-style-type: none;
     background-color:#2a607c; /*added to get background of top links blue*/
@@ -69,12 +78,13 @@ p {
     padding-bottom: 16px;
     padding-top: 16px;
 }
- 
+ /* List Item element within ul element class selector */
 .header div ul li {
     display: inline-block;
     margin-left: 60px; /*was 25px, changed it to center them more*/
 }
 
+/* hero image class selector */
 .hero {
     height: 1600px; /*I changed this from 800px to get the entire height of image to display*/
     width: 100%;
@@ -84,22 +94,26 @@ p {
     background-position: center;
 }
 
+/* float-left class selector */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* float-right class selector */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* content class selector */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* benefits class selector */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -112,7 +126,7 @@ p {
     margin-bottom: 20px; /*Added to make the benefits column on the right have a grey margin below it.*/
 }
 
-/* benefit class selectors */
+/* benefit sections class selectors */
 .benefit-lead,
 .benefit-brand,          /* moved these up since they shared same arguments */
 .benefit-cost {          /* to make the CSS more efficient and organized */
@@ -120,6 +134,7 @@ p {
     color: #ffffff;
 }
 
+/* benefits section images class selectors */
 .benefit-lead img, 
 .benefit-brand img, /* moved these up since they shared same arguments */
 .benefit-cost img { /* to make the CSS more efficient */
@@ -164,6 +179,7 @@ p {
     text-align: center;
 }
 
+/* footer class selector */
 .footer {
     padding: 30px;
     clear: both;
@@ -172,6 +188,7 @@ p {
     display: none; /* Added to hide the heart and message at bottom. They were not present in screenshot.*/
 }
 
+/* footer h2 class selector */
 .footer h2 {
     font-size: 20px;
 }
