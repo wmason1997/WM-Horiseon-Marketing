@@ -1,0 +1,177 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Element selectors */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Moved these a and p element selectors up next to the body element selector for organization*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/* Class selectors */
+.header {
+    /* padding: 30px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    display: inline;
+    width: 100%;
+}
+
+/* The Horiseon label in the top left corner of the webpage. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    background-color:#2a607c;
+    padding-left: 20px;
+    padding-right: 1200px; /* How I got the entire heading across to be blue, rather than white space*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+    display: inline;
+}
+
+.header div {
+    padding-top: 0px;  /*Trying changing this from 15px to 0px to bring up the header*/
+    margin-right: 0px; /*edited to 0 because of sliver of gray left on top right corner*/
+    padding-right: 40px; /*added to move the text back off the right edge of screen and give buffer*/
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color:#2a607c; /*added*/
+    padding-top: 20px; /* added to get top header bar the same height*/
+    padding-bottom: 20px; /* added to get top header bar the same height*/
+    position: absolute; /*added this line and the line below it to fix */
+    top: 0px; right: 0px; /*the discrepancies we were facing in the top header on different sized monitors */
+}
+
+.header div ul {
+    list-style-type: none;
+    background-color:#2a607c; /*added to get background of top links blue*/
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+ 
+.header div ul li {
+    display: inline-block;
+    margin-left: 60px; /*was 25px, changed it to center them more*/
+}
+
+.hero {
+    height: 1600px; /*I changed this from 800px to get the entire height of image to display*/
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 20px; /*Added to make the benefits column on the right have a grey margin below it.*/
+}
+
+/* benefit class selectors */
+.benefit-lead,
+.benefit-brand,          /* moved these up since they shared same arguments */
+.benefit-cost {          /* to make the CSS more efficient and organized */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead img, 
+.benefit-brand img, /* moved these up since they shared same arguments */
+.benefit-cost img { /* to make the CSS more efficient */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* class selectors for the 3 headings in the bottom left section: SEO, Online Reputation Management, and Social Media Marketing */
+.search-engine-optimization,
+.online-reputation-management, /* moved these up since they shared same argument specifications */
+.social-media-marketing {      /* to make the CSS more efficient */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* img class selectors that follow same formatting */
+.search-engine-optimization img,
+.online-reputation-management img, /* moved these up since they shared same argument specifications */
+.social-media-marketing img {      /* to make the CSS more efficient */
+    max-height: 200px;
+}
+
+/* h2 class selectors*/
+.search-engine-optimization h2,
+.online-reputation-management h2, /* moved these up since they shared same argument specifications */
+.social-media-marketing h2 {      /* to make the CSS more efficient */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Moved below h2 for organization*/
+/* h3 in benefit section class selectors */
+.benefit-lead h3,
+.benefit-brand h3,        /* moved these up since they shared same arguments */
+.benefit-cost h3 {        /* to make the CSS more efficient and organized */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: none; /* Added to hide the heart and message at bottom. They were not present in screenshot.*/
+}
+
+.footer h2 {
+    font-size: 20px;
+}
