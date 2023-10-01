@@ -2,6 +2,12 @@
 
 Description: I have refactored the Horiseon marketing agency's webpage to follow accessibility standards by adding alt attributes. I have also refactored the CSS and HTML to meet the additonal acceptance criteria.
 
+The starter code to be refactored was from the Develop folder of the coding-boot-camp/urban-octo-telegram repository on GitHub.
+
+The specific link is https://github.com/coding-boot-camp/urban-octo-telegram and it is located here within my repository.
+
+The listed contributors have GitHub account names Xandromus and Georgeyoo.
+
 Links to screenshots to deployed webpage: 
 
 Top: https://github.com/wmason1997/WM-Horiseon-Marketing/assets/98278654/144597a7-bea4-446e-b04e-de3123775c1b
