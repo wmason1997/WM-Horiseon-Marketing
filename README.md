@@ -14,7 +14,7 @@ Additionally, I was having an issue deploying my application on GitHub pages due
 # Screenshot of deployed application on GitHub pages #
 
     ```md
-    !['Screenshot'](assets/images/Horiseon-Marketing-WM-Deployed-Screenshot.png)
+    ![Screenshot](https://github.com/wmason1997/WM-Horiseon-Marketing/blob/main/assets/images/Horiseon-Marketing-WM-Deployed-Screenshot.png)
     ```
 
 # Link to deployed application #
