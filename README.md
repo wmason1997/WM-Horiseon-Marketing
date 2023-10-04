@@ -16,6 +16,8 @@ Additionally, I was having an issue deploying my application on GitHub pages due
 
 ![Screenshot](https://github.com/wmason1997/WM-Horiseon-Marketing/blob/main/assets/images/Horiseon-Marketing-WM-Deployed-Screenshot.png)
 
+![Screenshot](assets/images/Horiseon-Marketing-WM-Deployed-Screenshot.png)
+
 
 # Link to deployed application #
 https://wmason1997.github.io/WM-Horiseon-Marketing/
