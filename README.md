@@ -11,15 +11,11 @@ The listed contributors have GitHub account names Xandromus and Georgeyoo.
 
 Additionally, I was having an issue deploying my application on GitHub pages due to originally forking instead of cloning so I used AskBCS on Sunday 10/01/2023. The chat generated with ask-280700 and I worked out my issue with Tory.
 
-# Links to screenshots of deployed application on GitHub pages #
+# Screenshot of deployed application on GitHub pages #
 
-Top: https://github.com/wmason1997/WM-Horiseon-Marketing/assets/98278654/144597a7-bea4-446e-b04e-de3123775c1b
-
-Middle first: https://github.com/wmason1997/WM-Horiseon-Marketing/assets/98278654/d362184e-af1d-42b3-9c6d-b230ac3361f0
-
-Middle second: https://github.com/wmason1997/WM-Horiseon-Marketing/assets/98278654/3d9e3858-2160-474c-a8c0-3e9720b45850
-
-Bottom: https://github.com/wmason1997/WM-Horiseon-Marketing/assets/98278654/07a50792-05db-4c50-9a3e-4bcfa7f599ef
+```md
+![WM Horiseon Marketing Deployment](assets/images/Horiseon%20Marketing%20WM%20Deployed%20Screenshot.png)
+```
 
 # Link to deployed application #
 https://wmason1997.github.io/WM-Horiseon-Marketing/
