@@ -9,6 +9,8 @@ The specific link is https://github.com/coding-boot-camp/urban-octo-telegram and
 
 The listed contributors have GitHub account names Xandromus and Georgeyoo.
 
+Additionally, I was having an issue deploying my application on GitHub pages due to originally forking instead of cloning so I used AskBCS on Sunday 10/01/2023. The chat generated with ask-280700 and I worked out my issue with Tory.
+
 # Links to screenshots of deployed application on GitHub pages #
 
 Top: https://github.com/wmason1997/WM-Horiseon-Marketing/assets/98278654/144597a7-bea4-446e-b04e-de3123775c1b
