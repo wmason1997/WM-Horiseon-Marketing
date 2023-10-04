@@ -11,6 +11,8 @@ The listed contributors have GitHub account names Xandromus and Georgeyoo.
 
 Additionally, I was having an issue deploying my application on GitHub pages due to originally forking instead of cloning so I used AskBCS on Sunday 10/01/2023. The chat generated with ask-280700 and I worked out my issue with Tory.
 
+Furthermore, I was having an issue displaying a screenshot on my README file. I used AskBCS on Wenesday 10/04/2023. The chat generated was ask-281369 and I worked out my issue with Sangeetha.
+
 # Screenshot of deployed application on GitHub pages #
 
 ![Screenshot](assets/images/Horiseon-Marketing-WM-Deployed-Screenshot.png)
