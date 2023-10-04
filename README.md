@@ -14,7 +14,7 @@ Additionally, I was having an issue deploying my application on GitHub pages due
 # Screenshot of deployed application on GitHub pages #
 
 ```md
-![WM Horiseon Marketing Deployment](/HORISEON-MARKETING-DEVELOPMENT/assets/images/Horiseon-Marketing-WM-Deployed-Screenshot.png)
+![WM Horiseon Marketing Deployment](assets/images/Horiseon-Marketing-WM-Deployed-Screenshot.png)
 ```
 
 # Link to deployed application #
