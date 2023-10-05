@@ -1,5 +1,5 @@
 /* Universal Selector */
-/* Employing the Box Model*/
+/* Employing the Box Model */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -24,6 +24,16 @@ p {
     font-size: 16px;
 }
 
+/* header element selector */
+header {
+    /* padding: 30px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    display: inline;
+    width: 100%;
+}
+
 /* Removed period and changed from footer class selector to just specify the arguments for the footer. Made more semantic */
 /* footer element selector */
 footer {
@@ -34,45 +44,27 @@ footer {
     display: none; /* Added to hide the heart and message at bottom. They were not present in screenshot.*/
 }
 
-
-/* Class selectors */
-/* header class selector */
-.header {
-    /* padding: 30px; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-    display: inline;
-    width: 100%;
-}
-
 /* The Horiseon label in the top left corner of the webpage. */
-/* h1 header class selector */
-.header h1 {
+/* h1 header element selector */
+header h1 {
     display: inline-block;
     font-size: 48px;
     background-color:#2a607c;
+    color: white; /* had to add to correct font */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* had to add to correct font */
     padding-left: 20px;
     padding-right: 1200px; /* How I got the entire heading across to be blue, rather than white space*/
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-/* h1 seo class selector*/
-.header h1 .seo {
-    background-color:#2a607c; /* Had to add this background-color specification so semantic mark element 
-    was not highlighting seo in bright yellow*/
-    color: #d9dcd6;
-    display: inline;
-}
-
-/* section tag class selector for headers. Replaced div with section to make semantic */
-.header section {
+/* header section element selector. Replaced div with section to make semantic */
+header section {
     padding-top: 0px;  /*Trying changing this from 15px to 0px to bring up the header*/
     margin-right: 0px; /*edited to 0 because of sliver of gray left on top right corner*/
     padding-right: 40px; /*added to move the text back off the right edge of screen and give buffer*/
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* had to add to correct font */
     font-size: 20px;
     background-color:#2a607c; /*added*/
     padding-top: 20px; /* added to get top header bar the same height*/
@@ -81,8 +73,8 @@ footer {
     top: 0px; right: 0px; /*the discrepancies we were facing in the top header on different sized monitors */
 }
 
-/* unordered list element class selector for headers. Replaced div with section to make semantic */
-.header section ul {
+/* unordered list element selector for header sections. Replaced div with section to make semantic */
+header section ul {
     list-style-type: none;
     background-color:#2a607c; /*added to get background of top links blue*/
     padding-top: 0px;
@@ -90,10 +82,20 @@ footer {
     padding-bottom: 16px;
     padding-top: 16px;
 }
- /* List Item element within Unordered List element class selector. Replaced div with section to make semantic */
-.header section ul li {
+ /* List Item element within Unordered List List Item element selector. Replaced div with section to make semantic */
+header section ul li {
     display: inline-block;
     margin-left: 60px; /*was 25px, changed it to center them more*/
+}
+
+/* Class selectors */
+
+/* h1 seo class selector*/
+header h1 .seo {
+    background-color:#2a607c; /* Had to add this background-color specification so semantic mark element 
+    was not highlighting seo in bright yellow*/
+    color: #d9dcd6;
+    display: inline;
 }
 
 /* hero image class selector */
