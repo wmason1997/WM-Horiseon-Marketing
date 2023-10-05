@@ -24,6 +24,16 @@ p {
     font-size: 16px;
 }
 
+/* Removed period and changed from footer class selector to just specify the arguments for the footer. Made more semantic */
+/* footer element selector */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: none; /* Added to hide the heart and message at bottom. They were not present in screenshot.*/
+}
+
 
 /* Class selectors */
 /* header class selector */
@@ -179,15 +189,6 @@ p {
 .benefit-cost h3 {        /* to make the CSS more efficient and organized */
     margin-bottom: 10px;
     text-align: center;
-}
-
-/* footer class selector */
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    display: none; /* Added to hide the heart and message at bottom. They were not present in screenshot.*/
 }
 
 /* footer h2 class selector */
