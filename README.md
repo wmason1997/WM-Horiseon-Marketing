@@ -13,9 +13,11 @@ Additionally, I was having an issue deploying my application on GitHub pages due
 
 Furthermore, I was having an issue displaying a screenshot on my README file. I used AskBCS on Wenesday 10/04/2023. The chat generated was ask-281369 and I worked out my issue with Sangeetha.
 
-# Screenshot of deployed application on GitHub pages #
+# Screenshots of deployed application on GitHub pages #
 
 ![Screenshot](assets/images/Horiseon-Marketing-WM-Deployed-Screenshot.png)
+![Screenshot](assets/images/Horiseon-Marketing-Deployed-WM-Screenshot-2.png)
+![Screenshot](assets/images/Horiseon-Marketing-Deployed-WM-Screenshot-3.png)
 
 
 # Link to deployed application #
